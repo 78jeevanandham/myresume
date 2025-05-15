@@ -1,0 +1,99 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    font-family: 'Poppins',sans-serif;
+}
+
+.flexOne{
+    flex:1;
+}
+.myDetailsContainer .flexTwo{
+    flex:2;
+}
+.flexTwo{
+    flex:1.5;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    max-width: 56vw;
+    display: flex;
+    margin:0 auto;
+    padding:2rem;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+
+.myDetailsContainer{
+    display: flex;
+}
+
+.profilePic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.descriptionContainer{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.leftContainer{
+    margin-left: 1rem;
+}
+
+.divider{
+    border:1px solid black;
+    width:100%
+}
+
+h3,
+h5,
+h4 {
+    line-height: 1.4;
+    margin: 0;
+}
+h1{
+    font-weight: 1200;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(12, 90, 163);
+    margin: 0;
+}
+h2{
+    font-weight: 700;
+    color: rgb(12, 90, 163);
+}
+
+
+li,
+p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.highlight {
+    color: #05a794;
+    font-weight: 900;
+}
+@media screen and (max-width: 800px){
+     .mainContainer{
+    display: grid;
+    margin:0 auto;
+    padding:2rem;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 1fr;
+}
+.profilePic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+}
