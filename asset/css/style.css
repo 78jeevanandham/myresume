@@ -86,14 +86,23 @@ p {
 @media screen and (max-width: 800px){
      .mainContainer{
     display: grid;
+    min-width: 100vw;
     margin:0 auto;
     padding:2rem;
     background-color: rgb(255, 255, 255);
     grid-template-columns: 1fr;
 }
-.profilePic{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+
 }
+@media screen and (max-width: 400px){
+     .mainContainer{
+    display: grid;
+    min-width: 500vw;
+    
+    margin:0 auto;
+    padding:2rem;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 1fr;
+}
+
 }
