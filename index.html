@@ -1,107 +1,311 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link href="asset/css/style.css" rel="stylesheet"/>
+    <title>Jeevanandham resume</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="mainContainer">
-        <div class="myDetailsContainer">
-            <div class="flexOne flexcenter" >
-                <img alt="profile" class="profilePic" src="asset/pf.jpg"/>
-            </div>
-            <div class="flexTwo">
-                <h1>JEEVANANDHAM.S</h1>
-                <h3 class="highlight">FULL STACK JAVA DEVELOPER</h3>
-                <h5>First of all Thank's for yours visit my Resume website. I'm Jeevanandham. I'm from kovanur. I'm preserving B.sc.,Computer Science on Dr.PT.M.G.R.Govt Arts and Science College,Kudavasal.</h5><br>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">smith</a>
 
-                <h5><span class="highlight">Mobile: </span>+91-7868097478 
-                    &nbsp;&nbsp;&nbsp; <span class="highlight">Email: </span>jeevanandhamsivasankar99@gmail.com</h5><br>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__list">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'  ></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user'  ></i>Profile
+                        </a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book'  ></i>Education
+                        </a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt'  ></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award'  ></i>Certificates
+                        </a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external'  ></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main bd-container">
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="asset/image/pf.jpg" alt="image" class="home__img">
+
+                            <h1 class="home__title"><b>Name</b></h1>
+                            <h3 class="home__profession"> Developer</h3>
+
+                            
+                            <div>
+                                <a href="#pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map"></i>&nbsp;&nbsp;123 street city.
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope"></i>&nbsp;&nbsp;abc@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone"></i> &nbsp;123456789
+                            </span>
+                        </div>
+                        
+                    </div>
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                </section>
+
+               
+
+               
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">B.sc.,(Computer Science) </h3>
+                                <span class="education__studies"> University</span>
+                                <span class="education__year">2022-2025</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Hsc - </h3>
+                                <span class="education__studies">GBHSS</span>
+                                <span class="education__year">2021-2022</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <!-- <span class="education__line"></span> -->
+                                <span class="education__rounder"></span>
+                                
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">SSLC</h3>
+                                <span class="education__studies">GBHSS</span>
+                                <span class="education__year">2019-2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Java programming
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Html and CSS
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Javascript
+                            </li>
+                            
+                        </ul>
+
+                         <ul class="skills__data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Bootstrap
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>React.js
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>SpringBoot
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+
+                 <section class="social section">
+                    <h2 class="section-title">social</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="" target="https://linkedin.com/" class="social__link">
+                            <i class="bx bxl-linkedin-square"></i>@linkedin.com
+                        </a>
+                         <a href="" target="https://www.facebook.com/" class="social__link">
+                            <i class="bx bxl-facebook"></i>@facebood
+                        </a>
+                         <a href="" target="https://instagram.com/" class="social__link">
+                            <i class="bx bxl-instagram"></i>@instagram
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+
+                 <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur odit adipisci debitis quasi ipsum at in laboriosam et commodi voluptates vero fuga veniam quidem repellat porro eum magnam, culpa obcaecati.</p>
+                </section>
+
+
+
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">certified for complance tin the computer application</h3>
+                            <p class="certificate__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus.</p>
+                        </div>
+
+                         <div class="certificate__content">
+                            <h3 class="certificate__title">certified for complance tin the computer application</h3>
+                            <p class="certificate__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus.</p>
+                        </div>
+                         <div class="certificate__content">
+                            <h3 class="certificate__title">certified for complance tin the computer application</h3>
+                            <p class="certificate__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus.</p>
+                        </div>
+
+                        
+                    </div>
+                </section>
+
+                <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Director</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 123-456-789</li>
+                                <li>Email: user@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Director</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone: 123-456-789</li>
+                                <li>Email: user@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        
+                    </div>
+                </section>
+
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Tamil
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="bx bx-headphone interests__icon"></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class="bx bx-book interests__icon"></i>
+                            <span class="interests__name">Read</span>
+                        </div>
+                        
+                        <div class="interests__content">
+                            <i class="bx bxs-plane-alt interests__icon"></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class="bx bx-dumbbell interests__icon"></i>
+                            <span class="interests__name">Fitness</span>
+                        </div>
+
+                        
+                    </div>
+                </section>
+
+                <a href="#" class="scrolltop" id="scroll-top">
+                    <i class="bx bx-up-arrow-alt scrolltop__icon"> </i>
+                </a>
+
             </div>
         </div>
-        
-        <div class="submaincontainer">
 
-        <div class="divider"></div>
-        
-        <div class="descriptionContainer">
-            <div class="flexOne leftContainer">
-                <div>
-                    <h2>Skills</h2>
-                        <li>Java programming</li>
-                        <li>HTML5 & CSS 3</li>
-                        <li>BOOTSTRAP</li>
-                        <li>Javascript</li>
-                        <li>React JS</li>
-                        <li>Node JS</li>
-                        <li>MySQL & MongoDB</li>
-                </div>
-                <div>
-                    <h2>EDUCATION</h2>
-                        
-                            <p class="highlight">B.Sc.,(Computer Science) - 7.8 CGPA</h5>
-                            <h5>2022 - 2025.</h5>
-                            <h5>Dr.PT.MGR.Govt Arts and Science college, Kudavasal - 612 601.</h5>
-                        
+    </main>
 
-                        
-                            <p class="highlight">HSC - 59% percentage</h5>
-                            <h5>2021 - 2022.</h5>
-                            <h5>Government Boys Higher Secondary School, Nachiyarkoil - 612 602.</h5>
-                        
-                        
-                            <p class="highlight">SSLC - 68% percentage</h5>
-                            <h5>2019 - 2020.</h5>
-                            <h5>Government Boys Higher Secondary School, Nachiyarkoil - 612 602.</h5>
-                        
-                    <h2>COURSE</h2>
-                            <p class="highlight">Diploma in Full Stack Java Developer</h5>
-                            <h5>2024 - 2025</h5>
-                            <h5>CSC Computer Software College, Kumbakonam - 612 001.</h5>
-                    <h2>LANGUAGE</h2>
-                                <H5>Tamil</H5>
-                                <h5>English</h5>
-                    
-                </div>
-            </div>
-            <div class="flexTwo">
-                <h2>PROFILE SUMMERY</h2>
-            <ul>
-                <li>Programming Languages: Java(Core java), HTML 5, CSS 3, BOOTSTRAP, JavaScript.</li>
-                <li>Frameworks and Libraries: SpringBoot, React, Node.js.</li>
-                <li>Database and Version Control: MySQL, MongoDB, Git and GitHub.</li>
-            </ul>
-                <h2>PROJECT</h2>
-                <div>
-
-                    <h3 class="highlight">OnlineJobPortal :~</h3>
-                    <h5>The project entitled as "ONLINE JOB PORTAl" Developed using front and Html ,php and back end MYSQL.  The primary goal of this project s to design and implement a user-friendly job portal that facilitates efficient job searching, applicaton, and hiring processes.</h5>
-                    
-                    
-                </div>
-                <h2>CERTIFICATIONS</h2>
-                <div>
-                    <h5>Completed course Getting Started as a Full-stack web Developer & Ms Office 2024 on Linkedin Learning.</h5><br>
-                    <h5>Completed course Introducation to Artificial Intelligence, Mastering the Art of Prompting & Large Language Model Basics on IBM SkillsBuild.</h5>
-                    
-                </div>
-                <h2>EVENTS CERTIFICATIONS</h2>
-                <div>
-                    <h5>Participated in the event Bug Bash & Thinkathon on Bon secours arts & science college for women, Mannargudi.</h5><br>
-                    <h5>Participated in the event Web design & Debugging on Annai college on arts & science, Kumbakonam.</h5><br>
-                    <h5>Participated in the event Tech Quiz & Debugging Challenge on Periyar Maniammai Institute of Science & Technology, Thanjavur.</h5>
-                </div>
-                <h2>ADDITIONAL SKILLS</h2>
-                <div>
-                    <h5>Government of TamilNadu Certified Typewriter English 30wpm, English 45wpm & Tamil 30wpm.</h5>
-                </div>
-                
-            </div>
-        </div>
-        </div>
-    </div>
+   
+   
+    
+   <script src="asset/html2pdf.bundle.min.js"></script>
+    <script src="asset/script.js"></script>
 </body>
 </html>
