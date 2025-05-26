@@ -100,11 +100,11 @@ body .generate-pdf{
 }
 
 .scale-cv .section{
-    padding: 1.5rem 0 .80rem;
+    padding: .85rem 0 .50rem;
 }
 
 .scale-cv .section-title{
-    margin-bottom: .75rem;
+    margin-bottom: .65rem;
 }
 
 .scale-cv .resume__left,
@@ -127,7 +127,7 @@ body .generate-pdf{
 
 .scale-cv .home__address,
 .scale-cv  .social__container{
-    gap: .50rem;
+    gap: .40rem;
 }
 
 .scale-cv .home__icon,
