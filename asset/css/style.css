@@ -90,7 +90,8 @@ body .generate-pdf{
 }
 
 .scale-cv .change-theme,
-.scale-cv .generate-pdf{
+.scale-cv .generate-pdf,
+.scale-cv .interests{
     display: none;
 }
 
