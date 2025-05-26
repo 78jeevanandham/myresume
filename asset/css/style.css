@@ -95,7 +95,7 @@ body .generate-pdf{
 }
 
 .scale-cv .bd-container{
-    max-width: 595px;
+    max-width: 776px;
 }
 
 .scale-cv .section{
@@ -117,16 +117,16 @@ body .generate-pdf{
 }
 
 .scale-cv .home__container{
-    gap: 1.5rem;
+    gap: .5rem;
 }
 
 .scale-cv .home__data{
-    gap: .25rem;
+    gap: .20rem;
 }
 
 .scale-cv .home__address,
 .scale-cv  .social__container{
-    gap: .75rem;
+    gap: .50rem;
 }
 
 .scale-cv .home__icon,
@@ -137,7 +137,7 @@ body .generate-pdf{
 
 .scale-cv .education__container,
 .scale-cv .certificate_container{
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .scale-cv .education__time{
@@ -145,9 +145,9 @@ body .generate-pdf{
 }
 
 .scale-cv .education__rounder{
-    width: 11px;
-    height: 11px;
-    margin-top: .22rem;
+    width: 10px;
+    height: 10px;
+    margin-top: .20rem;
 }
 
 .scale-cv .education__line{
@@ -157,7 +157,7 @@ body .generate-pdf{
 }
 
 .scale-cv .education__data{
-    gap: .25rem;
+    gap: .20rem;
 }
 
 .scale-cv .skills_name{
@@ -165,7 +165,7 @@ body .generate-pdf{
 }
 
 .scale-cv .interests__container{
-    column-gap: 2.5rem;
+    column-gap: 1.5rem;
 }
 
     body{
