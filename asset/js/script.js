@@ -86,12 +86,13 @@ function removescalecv(){
 }
 
 let resumeButton = document.getElementById('resume-button')
+let downloadButton = document.getElementById('myresume')
 
 
 
 let opt = {
     margin: 1,
-    filename: 'myresume.pdf',
+    filename: 'Jeevanandhamresume.pdf',
     image: {type: 'jpeg', quality: 0.98},
     html2canvas: {scale: 4},
     jsPDF: {format: 'a4', orientation: 'portrait'}
@@ -102,15 +103,32 @@ function generateResume(){
   let element = document.getElementById('area-cv')
   html2pdf()
     .from(element)
+    .set(opt)
     .save();
+    
 }
 
-
+function mess(){
+    alert("successfully downloaded");
+}
 
 resumeButton.addEventListener('click', ()=>{
     scalecv();
     generateResume();
-    setTimeout(removescalecv,3000)
+    
+    setTimeout(removescalecv,2000 )
+    setTimeout(() => {
+        mess();
+    }, 500);
+})
+downloadButton.addEventListener('click', ()=>{
+    scalecv();
+    generateResume();
+    
+    setTimeout(removescalecv,2000 )
+    setTimeout(() => {
+        mess();
+    }, 500);
 })
 
 
