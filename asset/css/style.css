@@ -100,7 +100,7 @@ body .generate-pdf{
 }
 
 .scale-cv .section{
-    padding: 1rem 0 .80rem;
+    padding: 1.1rem 0 .80rem;
 }
 
 .scale-cv .section-title{
@@ -118,7 +118,7 @@ body .generate-pdf{
 }
 
 .scale-cv .home__container{
-    gap: .6rem;
+    gap: .7rem;
 }
 
 .scale-cv .home__data{
@@ -133,7 +133,7 @@ body .generate-pdf{
 .scale-cv .home__icon,
 .scale-cv .social__icon,
 .scale-cv .interests__icon{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .scale-cv .education__container,
@@ -158,7 +158,7 @@ body .generate-pdf{
 }
 
 .scale-cv .education__data{
-    gap: .23rem;
+    gap: .24rem;
 }
 
 .scale-cv .skills_name{
