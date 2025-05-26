@@ -86,7 +86,7 @@ function removescalecv(){
 }
 
 let resumeButton = document.getElementById('resume-button')
-let downloadButton = document.getElementById('myresume')
+
 
 
 
@@ -121,15 +121,7 @@ resumeButton.addEventListener('click', ()=>{
         mess();
     }, 500);
 })
-downloadButton.addEventListener('click', ()=>{
-    scalecv();
-    generateResume();
-    
-    setTimeout(removescalecv,2000 )
-    setTimeout(() => {
-        mess();
-    }, 500);
-})
+
 
 
 
